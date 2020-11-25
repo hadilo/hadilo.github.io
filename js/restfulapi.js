@@ -41,7 +41,7 @@ function getAllTeams(){
         caches.match(ENDPOINT_ALLTEAM).then(function (response) {
             if (response) {
                 response.json().then(function (data) {
-                    console.log("All Team Data: " + data);
+                    console.log("Detail Data cache: " + data);
                     hideLoading();
                     showAllTeams(data.teams);
                 })
@@ -56,7 +56,7 @@ function getAllTeams(){
     .then(status)
     .then(json)
     .then(function(data) {
-        console.log(data);
+        console.log("Detail Data online: " + data);
         hideLoading();
         showAllTeams(data.teams);
     }).catch(error);
@@ -70,7 +70,7 @@ function getTeamDetail(id_team){
         caches.match(ENDPOINT_DETAIL_TEAM).then(function (response) {
             if (response) {
                 response.json().then(function (data) {
-                    console.log("Detail Data: " + data);
+                    console.log("Detail Data cache: " + data);
                     hideLoading();
                     showDetailTeam(data);
                 })
@@ -86,7 +86,7 @@ function getTeamDetail(id_team){
     .then(json)
     .then(function(data) {
         // Objek/array JavaScript dari response.json() masuk lewat data.
-        console.log(data);
+        console.log("Detail Data online: " + data);
         hideLoading();
         showDetailTeam(data)
     }).catch(error);
@@ -133,38 +133,39 @@ const showAllTeams = (teams) => {
 
 const showDetailTeam = (team) => {
     
-        const element = document.querySelector("#detail");
-        element.innerHTML += `
-            <div class="col-sm-12" style="margin-top: 12px;">
-                <div class="card">
-                    <div class="card-body">
-                        
-                        <h2>${team.name}</h2>
-                        <h5>Short Name: ${team.shortName}</h5>
-                        <h5>Area: ${team.area.name}</h5>
-                        <h5>Venue: ${team.venue}</h5>
-                        <h5>Address: ${team.address}</h5>
-                        <h5>Email: ${team.email}</h5>
-                    </div>
+    const element = document.querySelector("#detail");
+    element.innerHTML = "";
+    element.innerHTML += `
+        <div class="col-sm-12" style="margin-top: 12px;">
+            <div class="card">
+                <div class="card-body">
+                    
+                    <h2>${team.name}</h2>
+                    <h5>Short Name: ${team.shortName}</h5>
+                    <h5>Area: ${team.area.name}</h5>
+                    <h5>Venue: ${team.venue}</h5>
+                    <h5>Address: ${team.address}</h5>
+                    <h5>Email: ${team.email}</h5>
                 </div>
             </div>
-        `;
+        </div>
+    `;
 
-        team.squad.forEach(squad => {
-            element.innerHTML += `
-            <div class="col s12 l4">
-                <div class="card" >
-                <div class="card-stacked">
-                    <div class="card-content">
-                        <h5>${squad.name}</h5>
-                        <p>Position: ${squad.position}</p>
-                        <p>Role: ${squad.role}</p>
-                    </div>
-                </div>
+    team.squad.forEach(squad => {
+        element.innerHTML += `
+        <div class="col s12 l4">
+            <div class="card" >
+            <div class="card-stacked">
+                <div class="card-content">
+                    <h5>${squad.name}</h5>
+                    <p>Position: ${squad.position}</p>
+                    <p>Role: ${squad.role}</p>
                 </div>
             </div>
-            `;
-        });
+            </div>
+        </div>
+        `;
+    });
 };
 
 function hideLoading() {
