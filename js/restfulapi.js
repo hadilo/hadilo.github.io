@@ -100,11 +100,17 @@ const showAllTeams = (teams) => {
     
     teams.forEach(team => {
         console.log(team);
+
+        let teamCrestUrl = standings.team.crestUrl;        
+        if (teamCrestUrl !== null) {            
+            teamCrestUrl = standings.team.crestUrl.replace(/^http:\/\//i, 'https://');        
+        }
+
         element.innerHTML += `
         <div class="col s12 l4">
             <div class="card" >
             <div class="card-image">
-                <img src="${team.crestUrl}" alt="${team.name}" style="height: 5em;width: auto;display: block;margin-left: auto;margin-right: auto;"/>
+                <img src="${teamCrestUrl}" alt="${team.name}" style="height: 5em;width: auto;display: block;margin-left: auto;margin-right: auto;"/>
             </div>
             <div class="card-stacked">
                 <div class="card-content">
