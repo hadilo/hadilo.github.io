@@ -101,9 +101,9 @@ const showAllTeams = (teams) => {
     teams.forEach(team => {
         console.log(team);
 
-        let teamCrestUrl = standings.team.crestUrl;        
-        if (teamCrestUrl !== null) {            
-            teamCrestUrl = standings.team.crestUrl.replace(/^http:\/\//i, 'https://');        
+        let teamCrestUrl = team.crestUrl;        
+        if (teamCrestUrl !== null) {
+            teamCrestUrl = team.crestUrl.replace(/^http:\/\//i, 'https://');        
         }
 
         element.innerHTML += `
