@@ -76,6 +76,7 @@ jobs:
 - **Ganti username GitHub**: edit semua placeholder `<YOUR-USERNAME>` di `index.html` (canonical, og:url, og:image) dan di README.
 - **Bahasa**: semua teks statis ada di objek `i18n` pada `script.js`, konten dinamis ada di array `skills`, `experience`, `projects`, `achievements`.
 - **Foto profil**: letakkan `assets/profile.jpg` (boleh juga ubah nama file & referensi di `index.html`).
+- **Gambar proyek**: screenshot ada di `assets/portofolio/` dan direferensikan lewat field `img` pada array `projects` di `script.js`. Studio Everywhere memakai 2 gambar (array) yang tampil berdampingan.
 - **Proyek tanpa link**: beberapa proyek di CV tidak punya link Play Store → tidak menampilkan tombol. Tambahkan `link` di `script.js` jika punya.
 
 ## 📌 Catatan

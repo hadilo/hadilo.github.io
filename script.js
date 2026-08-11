@@ -173,43 +173,53 @@
   ];
 
   var projects = [
-    { name: "Studio Everywhere", company: { en: "Everywhere.id", id: "Everywhere.id" }, badge: "company",
+    { name: "Studio Everywhere",
+      img: ["assets/portofolio/studio-everywhere-1.jpg", "assets/portofolio/studio-everywhere-2.jpg"], company: { en: "Everywhere.id", id: "Everywhere.id" }, badge: "company",
       desc: { en: "Live streaming & content creator platform — chat, virtual gifts, realtime via sockets.",
               id: "Platform live streaming untuk content creator — chat, virtual gift, realtime via socket." },
       link: "https://play.google.com/store/apps/details?id=com.gostream.android" },
-    { name: "Live Everywhere", company: { en: "Everywhere.id", id: "Everywhere.id" }, badge: "company",
+    { name: "Live Everywhere",
+      img: "assets/portofolio/live-everywhere.jpg", company: { en: "Everywhere.id", id: "Everywhere.id" }, badge: "company",
       desc: { en: "Watch or host live streams with varied content — music, games, concerts, talk shows, quizzes.",
               id: "Menonton atau mengadakan live streaming dari berbagai konten — musik, game, konser, talk show, kuis." },
       link: "https://play.google.com/store/apps/details?id=com.goplay.android" },
-    { name: "Alphapay", company: { en: "Alterra", id: "Alterra" }, badge: "company",
+    { name: "Alphapay",
+      img: "assets/portofolio/alphapay.jpg", company: { en: "Alterra", id: "Alterra" }, badge: "company",
       desc: { en: "Agent mobile payment app to top up customer phone balance and pay bills in Indonesia.",
               id: "Aplikasi pembayaran mobile agent untuk top up pulsa pelanggan dan bayar tagihan di Indonesia." },
       link: "https://play.google.com/store/apps/details?id=com.sepulsa.alphapay" },
-    { name: "Pesan Kamar", company: { en: "Personal Project", id: "Proyek Pribadi" }, badge: "personal",
+    { name: "Pesan Kamar",
+      img: "assets/portofolio/pesan-kamar.jpg", company: { en: "Personal Project", id: "Proyek Pribadi" }, badge: "personal",
       desc: { en: "Helps rent rooms and produce financial reports.",
               id: "Membantu menyewakan kamar dan membuat laporan keuangan." },
       link: "https://play.google.com/store/apps/details?id=com.pesankamar.rooms" },
-    { name: "Chaterpress", company: { en: "PT. Selapak Nusa Link", id: "PT. Selapak Nusa Link" }, badge: "company",
+    { name: "Chaterpress",
+      img: "assets/portofolio/chaterpress.jpg", company: { en: "PT. Selapak Nusa Link", id: "PT. Selapak Nusa Link" }, badge: "company",
       desc: { en: "Social photo printing app to chat, collaborate, curate and print photo books from social and device photos.",
               id: "Aplikasi cetak foto sosial untuk chat, berkolaborasi, kurasi dan mencetak photo book dari foto sosial & perangkat." },
       link: "https://play.google.com/store/apps/details?id=com.chaterpress.photoprinting" },
-    { name: "Lab Sakura", company: { en: "PT. Selapak Nusa Link", id: "PT. Selapak Nusa Link" }, badge: "company",
+    { name: "Lab Sakura",
+      img: "assets/portofolio/lab-sakura.jpg", company: { en: "PT. Selapak Nusa Link", id: "PT. Selapak Nusa Link" }, badge: "company",
       desc: { en: "Mobile platform for online clinics operated by Laboratorium Klinik Sakura.",
               id: "Platform mobile untuk klinik online yang dioperasikan Laboratorium Klinik Sakura." },
       link: "https://play.google.com/store/apps/details?id=com.biosys.labsakura" },
-    { name: "Warpattack", company: { en: "Personal Project (Game)", id: "Proyek Pribadi (Game)" }, badge: "personal",
+    { name: "Warpattack",
+      img: "assets/portofolio/warpattack.png", company: { en: "Personal Project (Game)", id: "Proyek Pribadi (Game)" }, badge: "personal",
       desc: { en: "Android tower-defense game like Dota / Plants vs Zombies with an AI (Fuzzy) logic, built with Unity3D.",
               id: "Game Android tower-defense seperti Dota / Plants vs Zombies dengan logika AI (Fuzzy), dibangun dengan Unity3D." },
       link: "https://play.google.com/store/apps/details?id=com.sinaurobot.warpattack" },
-    { name: "Salesku", company: { en: "Alterra", id: "Alterra" }, badge: "company",
+    { name: "Salesku",
+      img: "assets/portofolio/salesku.jpg", company: { en: "Alterra", id: "Alterra" }, badge: "company",
       desc: { en: "Sales app for top-up deposits, tracking and analyzing whitelabel AlphaPay online agents.",
               id: "Aplikasi sales untuk top up deposit, melacak dan menganalisis agen online whitelabel AlphaPay." },
       link: "" },
-    { name: "Baca Meter", company: { en: "BSA (Alterra Company)", id: "BSA (Perusahaan Alterra)" }, badge: "company",
+    { name: "Baca Meter",
+      img: "assets/portofolio/baca-meter.jpg", company: { en: "BSA (Alterra Company)", id: "BSA (Perusahaan Alterra)" }, badge: "company",
       desc: { en: "Helps PDAM collect meter readings from customers (online & offline mode).",
               id: "Membantu PDAM mengumpulkan angka meteran pelanggan (mode online & offline)." },
       link: "" },
-    { name: "Loket Mobile", company: { en: "BSA (Alterra Company)", id: "BSA (Perusahaan Alterra)" }, badge: "company",
+    { name: "Loket Mobile",
+      img: "assets/portofolio/loket-mobile.jpg", company: { en: "BSA (Alterra Company)", id: "BSA (Perusahaan Alterra)" }, badge: "company",
       desc: { en: "Helps PDAM collect bills from customers (online & offline mode).",
               id: "Membantu PDAM menagih tagihan pelanggan (mode online & offline)." },
       link: "" }
@@ -270,8 +280,18 @@
       var link = p.link
         ? '<a class="project-link" href="' + p.link + '" target="_blank" rel="noopener">' + t("projects.view") + ' →</a>'
         : "";
+      var imgs = Array.isArray(p.img) ? p.img : (p.img ? [p.img] : []);
+      var imgBox = "";
+      if (imgs.length) {
+        var thumbs = imgs.map(function (src) {
+          return '<img src="' + src + '" alt="' + p.name + ' screenshot" loading="lazy" />';
+        }).join("");
+        imgBox = '<div class="' + (imgs.length > 1 ? "project-thumbs" : "project-img") + '">' + thumbs + '</div>';
+      }
       return '<article class="project-card reveal">' +
+        imgBox +
         '<span class="project-badge ' + badgeCls + '">' + badgeText + '</span>' +
+
         '<h3 class="project-title">' + p.name + '</h3>' +
         '<p class="project-org">' + p.company[currentLang] + '</p>' +
         '<p class="project-desc">' + p.desc[currentLang] + '</p>' + link +
