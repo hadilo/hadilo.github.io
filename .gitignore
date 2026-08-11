@@ -1,0 +1,10 @@
+# Ignore the CV file (personal document)
+Muhammad Nur Hadi - Android Engineer.pdf
+
+# OS files
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
