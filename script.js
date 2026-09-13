@@ -20,14 +20,15 @@
       "about.fBased": "Based in:", "about.fLangs": "Languages:", "about.fLangsV": "English (Intermediate), Indonesian (Advanced)",
       "skills.title": "Skills",
       "experience.title": "Experience",
-      "projects.title": "Featured Projects",
+      "projects.title": "Projects",
       "projects.sub": "A selection of Android apps I've designed, built and shipped.",
       "projects.view": "View on Google Play",
+      "projects.visitWeb": "Visit Web App",
+      "links.playstore": "Play Store", "links.appstore": "App Store", "links.web": "Web App", "links.desktop": "Desktop",
       "achievements.title": "Certifications & Achievements",
       "contact.title": "Let's Work Together",
       "contact.sub": "Have an Android project or a role in mind? I'd love to hear from you.",
-      "footer.made": "Android Engineer Portfolio",
-      "badge.company": "Company", "badge.personal": "Personal"
+      "footer.made": "Android Engineer Portfolio"
     },
     id: {
       "nav.about": "Tentang", "nav.skills": "Keterampilan", "nav.experience": "Pengalaman",
@@ -43,14 +44,15 @@
       "about.fBased": "Berbasis di:", "about.fLangs": "Bahasa:", "about.fLangsV": "Inggris (Menengah), Indonesia (Lanjutan)",
       "skills.title": "Keterampilan",
       "experience.title": "Pengalaman",
-      "projects.title": "Proyek Pilihan",
+      "projects.title": "Proyek",
       "projects.sub": "Pilihan aplikasi Android yang saya rancang, bangun dan rilis.",
       "projects.view": "Lihat di Google Play",
+      "projects.visitWeb": "Kunjungi Web App",
+      "links.playstore": "Play Store", "links.appstore": "App Store", "links.web": "Web App", "links.desktop": "Desktop",
       "achievements.title": "Sertifikasi & Pencapaian",
       "contact.title": "Mari Bekerja Sama",
       "contact.sub": "Punya proyek Android atau lowongan yang cocok? Saya senang mendengar kabar dari Anda.",
-      "footer.made": "Portofolio Android Engineer",
-      "badge.company": "Perusahaan", "badge.personal": "Pribadi"
+      "footer.made": "Portofolio Android Engineer"
     }
   };
 
@@ -85,13 +87,13 @@
       loc: "Malang, Indonesia",
       points: {
         en: ["Built and operated an F&B business end-to-end.",
-             "Designed and developed an internal Point of Sale (POS) system using Google Apps Script to manage sales, inventory, members and reporting — reducing operational expenses.",
-             "Next step: migrating to Kotlin / Compose Multiplatform.",
-             "Managed operations, inventory, marketing and financial reporting."],
+          "Designed and developed an internal Point of Sale (POS) system using Google Apps Script to manage sales, inventory, members and reporting — reducing operational expenses.",
+          "Next step: migrating to Kotlin / Compose Multiplatform.",
+          "Managed operations, inventory, marketing and financial reporting."],
         id: ["Membangun dan mengoperasikan bisnis F&B secara menyeluruh.",
-             "Merancang dan mengembangkan sistem Point of Sale (POS) internal menggunakan Google Apps Script untuk mengelola penjualan, inventori, member dan pelaporan — menekan biaya operasional.",
-             "Langkah berikutnya: migrasi ke Kotlin / Compose Multiplatform.",
-             "Mengelola operasional, inventori, pemasaran dan laporan keuangan."]
+          "Merancang dan mengembangkan sistem Point of Sale (POS) internal menggunakan Google Apps Script untuk mengelola penjualan, inventori, member dan pelaporan — menekan biaya operasional.",
+          "Langkah berikutnya: migrasi ke Kotlin / Compose Multiplatform.",
+          "Mengelola operasional, inventori, pemasaran dan laporan keuangan."]
       }
     },
     {
@@ -101,15 +103,15 @@
       loc: "Jakarta, Indonesia",
       points: {
         en: ["Built and maintained Studio Everywhere apps for content creators — live streaming, chat, virtual gifts, socket, animation, modularization.",
-             "Led a team of 2 members; prioritized delivery, coaching and 1-on-1s.",
-             "Interviewed junior/mid Android candidates.",
-             "Monitored crashlytics and proposed priority fixes to the product team.",
-             "Researched (PoC) features and estimated man-days per sprint."],
+          "Led a team of 2 members; prioritized delivery, coaching and 1-on-1s.",
+          "Interviewed junior/mid Android candidates.",
+          "Monitored crashlytics and proposed priority fixes to the product team.",
+          "Researched (PoC) features and estimated man-days per sprint."],
         id: ["Membangun dan memelihara aplikasi Studio Everywhere untuk content creator — live streaming, chat, virtual gift, socket, animasi, modularisasi.",
-             "Memimpin tim beranggotakan 2 orang; memprioritaskan pengiriman, coaching dan 1-on-1.",
-             "Mewawancarai kandidat Android junior/mid.",
-             "Memantau crashlytics dan mengusulkan prioritas perbaikan ke tim produk.",
-             "Meneliti (PoC) fitur dan memperkirakan man-days per sprint."]
+          "Memimpin tim beranggotakan 2 orang; memprioritaskan pengiriman, coaching dan 1-on-1.",
+          "Mewawancarai kandidat Android junior/mid.",
+          "Memantau crashlytics dan mengusulkan prioritas perbaikan ke tim produk.",
+          "Meneliti (PoC) fitur dan memperkirakan man-days per sprint."]
       }
     },
     {
@@ -129,11 +131,11 @@
       loc: "Malang, Indonesia",
       points: {
         en: ["Introduced the MVP pattern and Kotlin to the team; successfully refactored Alphapay (Android) enabling unit testing.",
-             "Researched Android Kotlin with Hexagonal Architecture + MVVM using Dependency Injection, published on Medium.",
-             "Built Bacameter (Android) from scratch with MVVM, coroutines, unit tests, CI/CD, and more."],
+          "Researched Android Kotlin with Hexagonal Architecture + MVVM using Dependency Injection, published on Medium.",
+          "Built Bacameter (Android) from scratch with MVVM, coroutines, unit tests, CI/CD, and more."],
         id: ["Memperkenalkan pola MVP dan Kotlin ke tim; berhasil me-refactor Alphapay (Android) sehingga memungkinkan unit testing.",
-             "Meneliti Android Kotlin dengan Hexagonal Architecture + MVVM menggunakan Dependency Injection, dipublikasikan di Medium.",
-             "Membangun Bacameter (Android) dari nol dengan MVVM, coroutines, unit test, CI/CD, dan lainnya."]
+          "Meneliti Android Kotlin dengan Hexagonal Architecture + MVVM menggunakan Dependency Injection, dipublikasikan di Medium.",
+          "Membangun Bacameter (Android) dari nol dengan MVVM, coroutines, unit test, CI/CD, dan lainnya."]
       }
     },
     {
@@ -143,11 +145,11 @@
       loc: "Malang, Indonesia",
       points: {
         en: ["Developed Android apps with Java/Kotlin; converted UI designs to XML.",
-             "Researched the latest Android technologies and used 3rd-party libraries, REST API, Socket and Firebase.",
-             "Delivered apps on Play Store, error tracking with Crashlytics, maintained and fixed bugs, collaborated with git."],
+          "Researched the latest Android technologies and used 3rd-party libraries, REST API, Socket and Firebase.",
+          "Delivered apps on Play Store, error tracking with Crashlytics, maintained and fixed bugs, collaborated with git."],
         id: ["Mengembangkan aplikasi Android dengan Java/Kotlin; mengonversi desain UI ke XML.",
-             "Meneliti teknologi Android terbaru dan menggunakan library pihak ketiga, REST API, Socket dan Firebase.",
-             "Merilis aplikasi di Play Store, pelacakan error dengan Crashlytics, memelihara dan memperbaiki bug, berkolaborasi dengan git."]
+          "Meneliti teknologi Android terbaru dan menggunakan library pihak ketiga, REST API, Socket dan Firebase.",
+          "Merilis aplikasi di Play Store, pelacakan error dengan Crashlytics, memelihara dan memperbaiki bug, berkolaborasi dengan git."]
       }
     },
     {
@@ -173,77 +175,222 @@
   ];
 
   var projects = [
-    { name: "Studio Everywhere",
-      img: ["assets/portofolio/studio-everywhere-1.jpg", "assets/portofolio/studio-everywhere-2.jpg"], company: { en: "Everywhere.id", id: "Everywhere.id" }, badge: "company",
-      desc: { en: "Live streaming & content creator platform — chat, virtual gifts, realtime via sockets.",
-              id: "Platform live streaming untuk content creator — chat, virtual gift, realtime via socket." },
-      link: "https://play.google.com/store/apps/details?id=com.gostream.android" },
-    { name: "Live Everywhere",
-      img: "assets/portofolio/live-everywhere.jpg", company: { en: "Everywhere.id", id: "Everywhere.id" }, badge: "company",
-      desc: { en: "Watch or host live streams with varied content — music, games, concerts, talk shows, quizzes.",
-              id: "Menonton atau mengadakan live streaming dari berbagai konten — musik, game, konser, talk show, kuis." },
-      link: "https://play.google.com/store/apps/details?id=com.goplay.android" },
-    { name: "Alphapay",
+    {
+      name: "Semesta POS",
+      img: ["assets/portofolio/semesta-pos-1.png", "assets/portofolio/semesta-pos-2.png"],
+      company: { en: "Dimsumesta (Own Business)", id: "Dimsumesta (Own Business)" }, badge: "own-business",
+      year: { en: "2025 – Present", id: "2025 – Sekarang" },
+      desc: {
+        en: "Semesta POS is Point of Sale (POS) platform designed for small and medium-sized businesses. Support multi platform: Android, iOS, Web, and Desktop.",
+        id: "Semesta POS adalah Point of Sale (POS) platform di desain untuk usaha kecil - sedang. Support multi platform: Android, iOS, Web, and Desktop."
+      },
+      links: {
+        playstore: "",
+        appstore: "",
+        web: "https://semestaposflutter.pages.dev/",
+        desktop: ""
+      }
+    },
+    {
+      name: "Crossword Game",
+      img: "assets/portofolio/crossword-1.png", company: { en: "Personal Project (Game)", id: "Proyek Pribadi (Game)" }, badge: "personal",
+      year: "2026",
+      desc: {
+        en: "Android Game Crossword made by Flutter",
+        id: "Android Game Crossword made by Flutter"
+      },
+      links: {
+        playstore: "https://play.google.com/store/apps/details?id=com.hadilo.crossword",
+        appstore: "",
+        web: "",
+        desktop: ""
+      }
+    },
+    {
+      name: "Studio Everywhere",
+      img: ["assets/portofolio/studio-everywhere-1.jpg", "assets/portofolio/studio-everywhere-2.jpg"],
+      company: { en: "Everywhere.id (ex-GoTo Group)", id: "Everywhere.id (ex-GoTo Group)" }, badge: "company",
+      year: "2021 – 2024",
+      desc: {
+        en: "Live streaming & content creator platform — chat, virtual gifts, realtime via sockets.",
+        id: "Platform live streaming untuk content creator — chat, virtual gift, realtime via socket."
+      },
+      links: {
+        playstore: "https://play.google.com/store/apps/details?id=com.gostream.android",
+        appstore: "",
+        web: "",
+        desktop: ""
+      }
+    },
+    {
+      name: "Live Everywhere",
+      img: "assets/portofolio/live-everywhere.jpg",
+      company: { en: "Everywhere.id (ex-GoTo Group)", id: "Everywhere.id (ex-GoTo Group)" }, badge: "company",
+      year: "2021 – 2024",
+      desc: {
+        en: "Watch or host live streams with varied content — music, games, concerts, talk shows, quizzes.",
+        id: "Menonton atau mengadakan live streaming dari berbagai konten — musik, game, konser, talk show, kuis."
+      },
+      links: {
+        playstore: "https://play.google.com/store/apps/details?id=com.goplay.android",
+        appstore: "",
+        web: "",
+        desktop: ""
+      }
+    },
+    {
+      name: "Alphapay",
       img: "assets/portofolio/alphapay.jpg", company: { en: "Alterra", id: "Alterra" }, badge: "company",
-      desc: { en: "Agent mobile payment app to top up customer phone balance and pay bills in Indonesia.",
-              id: "Aplikasi pembayaran mobile agent untuk top up pulsa pelanggan dan bayar tagihan di Indonesia." },
-      link: "https://play.google.com/store/apps/details?id=com.sepulsa.alphapay" },
-    { name: "Pesan Kamar",
-      img: "assets/portofolio/pesan-kamar.jpg", company: { en: "Personal Project", id: "Proyek Pribadi" }, badge: "personal",
-      desc: { en: "Helps rent rooms and produce financial reports.",
-              id: "Membantu menyewakan kamar dan membuat laporan keuangan." },
-      link: "https://play.google.com/store/apps/details?id=com.pesankamar.rooms" },
-    { name: "Chaterpress",
-      img: "assets/portofolio/chaterpress.jpg", company: { en: "PT. Selapak Nusa Link", id: "PT. Selapak Nusa Link" }, badge: "company",
-      desc: { en: "Social photo printing app to chat, collaborate, curate and print photo books from social and device photos.",
-              id: "Aplikasi cetak foto sosial untuk chat, berkolaborasi, kurasi dan mencetak photo book dari foto sosial & perangkat." },
-      link: "https://play.google.com/store/apps/details?id=com.chaterpress.photoprinting" },
-    { name: "Lab Sakura",
-      img: "assets/portofolio/lab-sakura.jpg", company: { en: "PT. Selapak Nusa Link", id: "PT. Selapak Nusa Link" }, badge: "company",
-      desc: { en: "Mobile platform for online clinics operated by Laboratorium Klinik Sakura.",
-              id: "Platform mobile untuk klinik online yang dioperasikan Laboratorium Klinik Sakura." },
-      link: "https://play.google.com/store/apps/details?id=com.biosys.labsakura" },
-    { name: "Warpattack",
-      img: "assets/portofolio/warpattack.png", company: { en: "Personal Project (Game)", id: "Proyek Pribadi (Game)" }, badge: "personal",
-      desc: { en: "Android tower-defense game like Dota / Plants vs Zombies with an AI (Fuzzy) logic, built with Unity3D.",
-              id: "Game Android tower-defense seperti Dota / Plants vs Zombies dengan logika AI (Fuzzy), dibangun dengan Unity3D." },
-      link: "https://play.google.com/store/apps/details?id=com.sinaurobot.warpattack" },
-    { name: "Salesku",
+      year: "2018 – 2021",
+      desc: {
+        en: "Agent mobile payment app to top up customer phone balance and pay bills in Indonesia.",
+        id: "Aplikasi pembayaran mobile agent untuk top up pulsa pelanggan dan bayar tagihan di Indonesia."
+      },
+      links: {
+        playstore: "https://play.google.com/store/apps/details?id=com.sepulsa.alphapay",
+        appstore: "",
+        web: "",
+        desktop: ""
+      }
+    },
+    {
+      name: "Salesku",
       img: "assets/portofolio/salesku.jpg", company: { en: "Alterra", id: "Alterra" }, badge: "company",
-      desc: { en: "Sales app for top-up deposits, tracking and analyzing whitelabel AlphaPay online agents.",
-              id: "Aplikasi sales untuk top up deposit, melacak dan menganalisis agen online whitelabel AlphaPay." },
-      link: "" },
-    { name: "Baca Meter",
+      year: "2018 – 2021",
+      desc: {
+        en: "Sales app for top-up deposits, tracking and analyzing whitelabel AlphaPay online agents.",
+        id: "Aplikasi sales untuk top up deposit, melacak dan menganalisis agen online whitelabel AlphaPay."
+      },
+      links: {
+        playstore: "",
+        appstore: "",
+        web: "",
+        desktop: ""
+      }
+    },
+    {
+      name: "Baca Meter",
       img: "assets/portofolio/baca-meter.jpg", company: { en: "BSA (Alterra Company)", id: "BSA (Perusahaan Alterra)" }, badge: "company",
-      desc: { en: "Helps PDAM collect meter readings from customers (online & offline mode).",
-              id: "Membantu PDAM mengumpulkan angka meteran pelanggan (mode online & offline)." },
-      link: "" },
-    { name: "Loket Mobile",
+      year: "2018 – 2021",
+      desc: {
+        en: "Helps PDAM collect meter readings from customers (online & offline mode).",
+        id: "Membantu PDAM mengumpulkan angka meteran pelanggan (mode online & offline)."
+      },
+      links: {
+        playstore: "",
+        appstore: "",
+        web: "",
+        desktop: ""
+      }
+    },
+    {
+      name: "Loket Mobile",
       img: "assets/portofolio/loket-mobile.jpg", company: { en: "BSA (Alterra Company)", id: "BSA (Perusahaan Alterra)" }, badge: "company",
-      desc: { en: "Helps PDAM collect bills from customers (online & offline mode).",
-              id: "Membantu PDAM menagih tagihan pelanggan (mode online & offline)." },
-      link: "" }
+      year: "2018 – 2021",
+      desc: {
+        en: "Helps PDAM collect bills from customers (online & offline mode).",
+        id: "Membantu PDAM menagih tagihan pelanggan (mode online & offline)."
+      },
+      links: {
+        playstore: "",
+        appstore: "",
+        web: "",
+        desktop: ""
+      }
+    },
+    {
+      name: "Pesan Kamar",
+      img: "assets/portofolio/pesan-kamar.jpg", company: { en: "Personal Project", id: "Proyek Pribadi" }, badge: "personal",
+      year: "2020",
+      desc: {
+        en: "Helps rent rooms and produce financial reports.",
+        id: "Membantu menyewakan kamar dan membuat laporan keuangan."
+      },
+      links: {
+        playstore: "https://play.google.com/store/apps/details?id=com.pesankamar.rooms",
+        appstore: "",
+        web: "",
+        desktop: ""
+      }
+    },
+    {
+      name: "Chaterpress",
+      img: "assets/portofolio/chaterpress.jpg", company: { en: "PT. Selapak Nusa Link", id: "PT. Selapak Nusa Link" }, badge: "company",
+      year: "2016 – 2018",
+      desc: {
+        en: "Social photo printing app to chat, collaborate, curate and print photo books from social and device photos.",
+        id: "Aplikasi cetak foto sosial untuk chat, berkolaborasi, kurasi dan mencetak photo book dari foto sosial & perangkat."
+      },
+      links: {
+        playstore: "https://play.google.com/store/apps/details?id=com.chaterpress.photoprinting",
+        appstore: "",
+        web: "",
+        desktop: ""
+      }
+    },
+    {
+      name: "Lab Sakura",
+      img: "assets/portofolio/lab-sakura.jpg", company: { en: "PT. Selapak Nusa Link", id: "PT. Selapak Nusa Link" }, badge: "company",
+      year: "2016 – 2018",
+      desc: {
+        en: "Mobile platform for online clinics operated by Laboratorium Klinik Sakura.",
+        id: "Platform mobile untuk klinik online yang dioperasikan Laboratorium Klinik Sakura."
+      },
+      links: {
+        playstore: "https://play.google.com/store/apps/details?id=com.biosys.labsakura",
+        appstore: "",
+        web: "",
+        desktop: ""
+      }
+    },
+    {
+      name: "Warpattack",
+      img: "assets/portofolio/warpattack.png", company: { en: "Personal Project (Game)", id: "Proyek Pribadi (Game)" }, badge: "personal",
+      year: "2015",
+      desc: {
+        en: "Android tower-defense game like Dota / Plants vs Zombies with an AI (Fuzzy) logic, built with Unity3D.",
+        id: "Game Android tower-defense seperti Dota / Plants vs Zombies dengan logika AI (Fuzzy), dibangun dengan Unity3D."
+      },
+      links: {
+        playstore: "https://play.google.com/store/apps/details?id=com.sinaurobot.warpattack",
+        appstore: "",
+        web: "",
+        desktop: ""
+      }
+    }
   ];
 
   var achievements = [
-    { icon: "🎓", title: { en: "Menjadi Android Developer Expert", id: "Menjadi Android Developer Expert" },
+    {
+      icon: "🎓", title: { en: "Menjadi Android Developer Expert", id: "Menjadi Android Developer Expert" },
       detail: { en: "Expert-level Android developer certification.", id: "Sertifikasi developer Android tingkat expert." },
-      year: "—", type: "cert" },
-    { icon: "🎓", title: { en: "Kotlin Android Developer Expert", id: "Kotlin Android Developer Expert" },
+      year: "—", type: "cert"
+    },
+    {
+      icon: "🎓", title: { en: "Kotlin Android Developer Expert", id: "Kotlin Android Developer Expert" },
       detail: { en: "Advanced Kotlin for Android certification by Dicoding.", id: "Sertifikasi Kotlin Android tingkat lanjut oleh Dicoding." },
-      year: "—", type: "cert" },
-    { icon: "🤖", title: { en: "Advisor Google Bangkit — Android", id: "Advisor Google Bangkit — Android" },
+      year: "—", type: "cert"
+    },
+    {
+      icon: "🤖", title: { en: "Advisor Google Bangkit — Android", id: "Advisor Google Bangkit — Android" },
       detail: { en: "Mentor for the Bangkit Android learning track.", id: "Mentor untuk jalur belajar Android Bangkit." },
-      year: "2021", type: "ach" },
-    { icon: "🏅", title: { en: "Facilitator Google Developer Kejar — Kotlin", id: "Fasilitator Google Developer Kejar — Kotlin" },
+      year: "2021", type: "ach"
+    },
+    {
+      icon: "🏅", title: { en: "Facilitator Google Developer Kejar — Kotlin", id: "Fasilitator Google Developer Kejar — Kotlin" },
       detail: { en: "Facilitated Google Developer Kejar courses on Kotlin for Android.", id: "Memfasilitasi kursus Google Developer Kejar tentang Kotlin untuk Android." },
-      year: "2018", type: "ach" },
-    { icon: "🥇", title: { en: "Best Participant — Internet of Things Academy", id: "Best Participant — Internet of Things Academy" },
+      year: "2018", type: "ach"
+    },
+    {
+      icon: "🥇", title: { en: "Best Participant — Internet of Things Academy", id: "Best Participant — Internet of Things Academy" },
       detail: { en: "Top participant at Comfest 8 IoT Academy.", id: "Peserta terbaik di IoT Academy Comfest 8." },
-      year: "2016", type: "ach" },
-    { icon: "🤖", title: { en: "National Robotic Competition (AI / Fuzzy)", id: "Kompetisi Robotik Nasional (AI / Fuzzy)" },
+      year: "2016", type: "ach"
+    },
+    {
+      icon: "🤖", title: { en: "National Robotic Competition (AI / Fuzzy)", id: "Kompetisi Robotik Nasional (AI / Fuzzy)" },
       detail: { en: "Participated in national robotic competitions with an AI (Fuzzy) algorithm.", id: "Mengikuti kompetisi robotik nasional dengan algoritma AI (Fuzzy)." },
-      year: "2015", type: "ach" }
+      year: "2015", type: "ach"
+    }
   ];
 
   /* ===== Render: Skills ===== */
@@ -274,12 +421,38 @@
   /* ===== Render: Projects ===== */
   function renderProjects() {
     var box = document.getElementById("projects-grid");
+    var linkKeys = [
+      { key: "playstore" },
+      { key: "appstore" },
+      { key: "web" },
+      { key: "desktop" }
+    ];
+
     var html = projects.map(function (p) {
-      var badgeCls = p.badge === "personal" ? "badge-personal" : "badge-company";
-      var badgeText = t("badge." + p.badge);
-      var link = p.link
-        ? '<a class="project-link" href="' + p.link + '" target="_blank" rel="noopener">' + t("projects.view") + ' →</a>'
-        : "";
+      var isPersonal = (p.badge === "personal") || (p.company && p.company.en && p.company.en.indexOf("Personal") !== -1);
+      var badgeCls = isPersonal ? "badge-personal" : "badge-company";
+      var badgeText = p.company ? p.company[currentLang] : "";
+      var yearStr = p.year ? (typeof p.year === "object" ? p.year[currentLang] : p.year) : "";
+      var yearHtml = yearStr ? '<span class="project-year">' + yearStr + '</span>' : "";
+
+      var linksObj = p.links || {};
+      if (!p.links && p.link) {
+        if (p.link.indexOf("play.google.com") !== -1) {
+          linksObj = { playstore: p.link };
+        } else {
+          linksObj = { web: p.link };
+        }
+      }
+
+      var linksHtml = linkKeys
+        .filter(function (item) { return Boolean(linksObj[item.key]); })
+        .map(function (item) {
+          return '<a class="project-link" href="' + linksObj[item.key] + '" target="_blank" rel="noopener">' +
+            t("links." + item.key) + ' →</a>';
+        }).join("");
+
+      var linksBox = linksHtml ? '<div class="project-links">' + linksHtml + '</div>' : "";
+
       var imgs = Array.isArray(p.img) ? p.img : (p.img ? [p.img] : []);
       var imgBox = "";
       if (imgs.length) {
@@ -290,11 +463,13 @@
       }
       return '<article class="project-card reveal">' +
         imgBox +
+        '<div class="project-meta">' +
         '<span class="project-badge ' + badgeCls + '">' + badgeText + '</span>' +
-
+        yearHtml +
+        '</div>' +
         '<h3 class="project-title">' + p.name + '</h3>' +
-        '<p class="project-org">' + p.company[currentLang] + '</p>' +
-        '<p class="project-desc">' + p.desc[currentLang] + '</p>' + link +
+        '<p class="project-desc">' + p.desc[currentLang] + '</p>' +
+        linksBox +
         '</article>';
     }).join("");
     box.innerHTML = html;
@@ -330,7 +505,7 @@
     btn.setAttribute("aria-label", lang === "en" ? "Switch to Indonesian" : "Switch to English");
     applyStaticTranslations();
     renderAll();
-    try { localStorage.setItem("portfolio-lang", lang); } catch (e) {}
+    try { localStorage.setItem("portfolio-lang", lang); } catch (e) { }
   }
 
   /* ===== Reveal on scroll ===== */
@@ -394,7 +569,7 @@
     document.getElementById("year").textContent = new Date().getFullYear();
 
     var saved = null;
-    try { saved = localStorage.getItem("portfolio-lang"); } catch (e) {}
+    try { saved = localStorage.getItem("portfolio-lang"); } catch (e) { }
     currentLang = saved === "id" ? "id" : "en"; // English is the default language
 
     var btn = document.getElementById("lang-toggle");

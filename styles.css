@@ -261,22 +261,53 @@ ul { list-style: none; }
   transition: transform 0.2s ease, border-color 0.2s;
 }
 .project-card:hover { transform: translateY(-4px); border-color: var(--accent); }
+.project-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 14px;
+}
 .project-badge {
-  align-self: flex-start;
+  display: inline-block;
   font-size: 0.72rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   border-radius: 6px;
   padding: 3px 10px;
-  margin-bottom: 14px;
+}
+.project-year {
+  font-size: 0.8rem;
+  color: var(--muted);
+  font-weight: 500;
+  white-space: nowrap;
 }
 .badge-company { background: rgba(56, 189, 248, 0.14); color: var(--accent); }
 .badge-personal { background: rgba(52, 211, 153, 0.14); color: var(--accent-2); }
 .project-title { font-size: 1.15rem; font-weight: 700; margin-bottom: 6px; }
 .project-org { color: var(--muted); font-size: 0.85rem; margin-bottom: 10px; }
-.project-desc { color: #c6d1e3; font-size: 0.92rem; margin-bottom: 16px; flex: 1; }
-.project-link { color: var(--accent); font-weight: 600; font-size: 0.9rem; }
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 14px;
+  margin-top: auto;
+  padding-top: 10px;
+}
+.project-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 0.88rem;
+  transition: color 0.15s ease, transform 0.15s ease;
+}
+.project-link:hover {
+  color: #63d0ff;
+  transform: translateX(2px);
+}
 
 /* ===== Achievements / Certifications ===== */
 .ach-grid {
