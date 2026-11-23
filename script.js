@@ -81,22 +81,6 @@
 
   var experience = [
     {
-      title: { en: "Founder & Business Owner", id: "Founder & Pemilik Bisnis" },
-      org: { en: "Dimsumesta (F&B Business)", id: "Dimsumesta (Bisnis F&B)" },
-      date: { en: "Jul 2025 – Present", id: "Jul 2025 – Sekarang" },
-      loc: "Malang, Indonesia",
-      points: {
-        en: ["Built and operated an F&B business end-to-end.",
-          "Designed and developed an internal Point of Sale (POS) system using Google Apps Script to manage sales, inventory, members and reporting — reducing operational expenses.",
-          "Next step: migrating to Kotlin / Compose Multiplatform.",
-          "Managed operations, inventory, marketing and financial reporting."],
-        id: ["Membangun dan mengoperasikan bisnis F&B secara menyeluruh.",
-          "Merancang dan mengembangkan sistem Point of Sale (POS) internal menggunakan Google Apps Script untuk mengelola penjualan, inventori, member dan pelaporan — menekan biaya operasional.",
-          "Langkah berikutnya: migrasi ke Kotlin / Compose Multiplatform.",
-          "Mengelola operasional, inventori, pemasaran dan laporan keuangan."]
-      }
-    },
-    {
       title: { en: "Tech Lead Android Engineer", id: "Tech Lead Android Engineer" },
       org: { en: "Everywhere.id (formerly GoPlay, ex-GoTo Group)", id: "Everywhere.id (sebelumnya GoPlay, ex-GoTo Group)" },
       date: { en: "Oct 2022 – Apr 2024", id: "Okt 2022 – Apr 2024" },
@@ -175,22 +159,6 @@
   ];
 
   var projects = [
-    {
-      name: "Semesta POS",
-      img: ["assets/portofolio/semesta-pos-1.png", "assets/portofolio/semesta-pos-2.png"],
-      company: { en: "Dimsumesta (Own Business)", id: "Dimsumesta (Own Business)" }, badge: "own-business",
-      year: { en: "2025 – Present", id: "2025 – Sekarang" },
-      desc: {
-        en: "Semesta POS is Point of Sale (POS) platform designed for small and medium-sized businesses. Support multi platform: Android, iOS, Web, and Desktop.",
-        id: "Semesta POS adalah Point of Sale (POS) platform di desain untuk usaha kecil - sedang. Support multi platform: Android, iOS, Web, and Desktop."
-      },
-      links: {
-        playstore: "",
-        appstore: "",
-        web: "https://semestaposflutter.pages.dev/",
-        desktop: ""
-      }
-    },
     {
       name: "Crossword Game",
       img: "assets/portofolio/crossword-1.png", company: { en: "Personal Project (Game)", id: "Proyek Pribadi (Game)" }, badge: "personal",
